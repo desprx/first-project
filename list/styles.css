@@ -1,0 +1,113 @@
+body {
+  font-family: "inter", "EB Garamond";
+  margin: 0;
+  background-color: #1e1e1e;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: white;
+}
+.content-section {
+  
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+  width: 360px;
+}
+
+.content-section-dark {
+  background-color: black;
+  color: white;
+}
+
+.content-section-yellow {
+  background-color: yellow;
+  color: #1e1e1e ;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 24px 20px;
+}
+.header-menu-list {
+  text-align: left;
+}
+.header-menu {
+  
+  display: list-item;
+  list-style: none;
+  
+  
+}
+.cover {
+  min-height: 258px;
+  padding: 7px 24px 32px 20px;
+    
+  background-image: url(cover.svg);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: auto;
+
+  padding: 0 24px 20px;
+}
+.intro {
+  padding: 0 20px 38px;
+}
+
+.how-to {
+  padding: 40px 20px 60px;
+}
+.reasons {
+  padding: 40px 20px;
+}
+
+
+.cover-title {
+  width: 100%;
+  font-family: "EB Garamond" ;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 1;
+  
+  
+}
+
+.accent-span {
+  
+  display: block;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+  text-align: right;
+    
+  
+}
+.header-menu-item {
+  font-family: "inter"
+  
+  
+}
+.header-logo {
+  display: block;
+  width: 78px;
+  margin-top: 6px;
+
+  
+  
+  
+}
