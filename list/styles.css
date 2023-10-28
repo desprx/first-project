@@ -1,9 +1,4 @@
-/*asdasdasdasdasd*/
-.accent-span {
-  font-family: "inter", "EB Garamond";
-  margin: 0;
-  background-color: #1e1e1e;
-}
+
 h1,
 h2,
 h3,
@@ -20,6 +15,12 @@ blockquote {
 a {
   color: white;
 }
+.text {
+  font-family: inter ;
+  text-align: justify;
+  font-weight: 400;
+  font-style: normal;
+}
 .content-section {
   
   margin: auto;
@@ -29,7 +30,7 @@ a {
 }
 
 .content-section-dark {
-  background-color: black;
+  background-color: #131313;
   color: white;
 }
 
@@ -40,10 +41,11 @@ a {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  
   padding: 24px 20px;
 }
 .header-menu-list {
+  display: flex;
   text-align: left;
 }
 .header-menu {
@@ -56,7 +58,6 @@ a {
 .cover {
   min-height: 258px;
   padding: 7px 24px 32px 20px;
-    
   background-image: url(cover.svg);
   background-position: right center;
   background-repeat: no-repeat;
@@ -69,6 +70,9 @@ a {
 }
 
 .how-to {
+  font-family: EB Garamond, serif ;
+  font-weight: 400;
+  line-height: 1;
   padding: 40px 20px 60px;
 }
 .reasons {
@@ -78,7 +82,7 @@ a {
 
 .cover-title {
   width: 100%;
-  font-family: "EB Garamond" ;
+  font-family: EB Garamond, serif ;
   font-weight: 400;
   font-size: 72px;
   line-height: 1;
@@ -88,18 +92,20 @@ a {
 
 .accent-span {
   
+  font-family: EB garamond, serif;
+  margin: 0;
   display: block;
 }
+ 
 .text-center {
     text-align: center;
 }
 .text-right {
-  text-align: right;
-    
-  
+  text-align: right; 
 }
+
 .header-menu-item {
-  font-family: "inter"
+  font-family: "inter";
   
   
 }
@@ -107,8 +113,125 @@ a {
   display: block;
   width: 78px;
   margin-top: 6px;
+}
 
+.intro {
+display: flex;
+flex-direction: column;
+row-gap: 24px;
+}
+
+
+
+.time_and{
+  display: flex;
+  justify-content: space-between
+}
+.intro_way {
+  align-items: start;
+
+   }
+   
+.time{
+  align-items: flex-end;
+  white-space: nowrap;
+ 
+} 
   
+.text_intro {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
   
+}
+
+
+.how_r {
+  font-size: 28px;
+  width: 100%;
+}
+.bold {
+  font-weight: 1000;
+}
+.how {
+  padding-left: 24px;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
   
+}
+
+.card {
+ display: flex;
+ flex-direction: column;
+ 
+ border-radius: 30px;
+ padding: 20px 20px;
+ align-items: center;
+ }
+
+.card_img {
+display: block;
+width: 100px;
+padding: 20px;
+
+}
+
+.card-black {
+ background-color:  #343434; 
+ width: 319px;
+ border-radius: 30px;
+ 
+ 
+}
+
+.card-yellow {
+  background-color: #FEE42A;
+  color: #131313;
+  border-radius: 30px;
+  width: 290px;
+  
+
+}
+.name {
+  display: inline-flex;
+  margin: 8px;
+  gap: 8px;
+  padding-left: 10px;
+  
+}
+.text-card {
+  font-family: inter;
+  margin: 20px;
+  gap: 8px;
+  padding-bottom: 20px;
+  text-align: justify;
+}
+.text-reasons {
+  margin-bottom: 32px;
+}
+.name-yellow {
+  font-size: 22px;
+  font-weight: 500;
+}
+.text-yellow {
+  font-size: 16px ;
+  font-weight: 400;
+  
+}
+.bunin-card {
+  margin-top: 32px;
+}
+
+.create-line {
+  
+  width: 360px;
+  border-top: 1px solid #FEE42A;
+}
+.footer {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
 }
